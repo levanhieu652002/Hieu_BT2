@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Listmessi"
+    android:background="@drawable/xoai">
+
+    <TextView
+        android:id="@+id/txtleo"
+        android:layout_width="407dp"
+        android:layout_height="193dp"
+        android:text="Xoài là loại cây thân gỗ thường có thân cao, tuổi thọ vài chục năm, nhiều cây hơn 100 năm vẫn ra hoa kết trái. Tuổi thọ của cây tùy thuộc vào cách nhân giống và điều kiện trồng. Trồng cây thực sinh (cây trồng bằng hạt) thường to và cao hơn cây chiết, cây ghép hoặc cây trồng từ cành giâm"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
